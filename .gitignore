@@ -1,8 +1,11 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+PodcastrNext/node_modules
+PodcastrReact/node_modules
+
+PodcastrReact/.pnp
+PodcastrNext/.pnp
 .pnp.js
 
 # testing
@@ -19,5 +22,15 @@
 .env.production.local
 
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+PodcastrNext/yarn-debug.log*
+PodcastrNext/yarn-error.log*
+
+PodcastrReact/yarn-debug.log*
+PodcastrReact/yarn-error.log*
+
+# vercel
+.vercel
+
+# next.js
+PodcastrNext/.next/
+PodcastrNext/out/
