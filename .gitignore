@@ -3,9 +3,11 @@
 # dependencies
 PodcastrNext/node_modules
 PodcastrReact/node_modules
+plantmaneger/node_modules
 
 PodcastrReact/.pnp
 PodcastrNext/.pnp
+plantmaneger/.pnp
 .pnp.js
 
 # testing
@@ -27,6 +29,9 @@ PodcastrNext/yarn-error.log*
 
 PodcastrReact/yarn-debug.log*
 PodcastrReact/yarn-error.log*
+
+plantmaneger/yarn-error.log*
+plantmaneger/yarn-debug.log*
 
 # vercel
 .vercel
